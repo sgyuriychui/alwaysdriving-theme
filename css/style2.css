@@ -1,0 +1,600 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../fonts/CaviarDreams-webfont.eot');
+    src: url('../fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CaviarDreams-webfont.woff') format('woff'),
+    url('../fonts/CaviarDreams-webfont.ttf') format('truetype'),
+    url('../fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../fonts/Caviar_Dreams_Bold-webfont.eot');
+    src: url('../fonts/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+    url('../fonts/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+    url('../fonts/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('../fonts/CaviarDreams_Italic-webfont.eot');
+    src: url('../fonts/CaviarDreams_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CaviarDreams_Italic-webfont.woff') format('woff'),
+    url('../fonts/CaviarDreams_Italic-webfont.ttf') format('truetype'),
+    url('../fonts/CaviarDreams_Italic-webfont.svg#caviar_dreamsitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('../fonts/CaviarDreams_BoldItalic-webfont.eot');
+    src: url('../fonts/CaviarDreams_BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CaviarDreams_BoldItalic-webfont.woff') format('woff'),
+    url('../fonts/CaviarDreams_BoldItalic-webfont.ttf') format('truetype'),
+    url('../fonts/CaviarDreams_BoldItalic-webfont.svg#caviar_dreamsbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html, body {
+    background-color: #f4c7b4;
+    font-family: "Open Sans"; //'caviar_dreamsregular';
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+}
+a {
+    color: #000;
+}
+a:hover {
+    color: #000;
+}
+a:focus {
+    outline: none;
+}
+h1>a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-family: "Bitter"; //'caviar_dreamsbold';
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+}
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 992px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+.bg-white {
+    background-color: #fff;
+}
+.bg-carrot {
+    background-color: #f2b7a7;
+}
+.btn-carrot {
+    border: 0;
+    border-radius: 0;
+    background-color: #fb4540;
+    color: #000;
+    font-size: 18px;
+}
+.position-top {top: 0;}
+.position-right {right: 0;}
+.position-bottom {bottom: 0;}
+.position-left {left: 0;}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: none;
+}
+.fa-stack {
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+}
+.fa-social-link .fa-stack-1x {
+    color: #fff;
+}
+.fa-social-link .fa-stack-2x {
+    color: #fa2232 !important;
+}
+
+
+/* header */
+#logo {
+    margin-top: 40px;
+}
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 45px;
+}
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+.nav>li>a {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+@media (max-width: 1200px) {
+    .nav>li>a {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .nav>li>a {
+        font-size: 12px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+}
+.navbar-default {
+    background-color: #f9dcd4;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: "Open Sans"; //'caviar_dreamsregular';
+    font-weight: normal;
+    font-size: 20px;
+    color: #000;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    background-color: #f92c3a;
+    color: #fff;
+}
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #f92c3a;
+    color: #fff;
+}
+
+
+
+/* content */
+.block-banner-top {}
+.block-banner-top a {
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    color: #000 !important;
+    margin: 0 auto 20px auto;
+}
+.block-banner-top a img {
+    max-width: 100%;
+    height: auto;
+}
+.block-banner-top a p {
+    position: absolute;
+    background-color: rgba(238, 159, 137, 0.5);
+    font-family: 'Allan';
+    color: #f00;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 0;
+    padding: 10px;
+}
+@media (max-width: 1200px) {
+    .block-banner-top a p {
+        font-size: 24px;
+    }
+}
+@media (max-width: 992px) {
+    .block-banner-top a p {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .block-banner-top a p {
+        font-size: 18px;
+    }
+}
+
+
+.block-banner {}
+.block-banner a {
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    color: #000 !important;
+    margin: 0 auto 20px auto;
+}
+.block-banner a img {
+    max-width: 100%;
+    height: auto;
+}
+.block-banner a p {
+    position: absolute;
+    background-color: rgba(238, 159, 137, 0.5);
+    font-family: "Bitter"; //'caviar_dreamsbold';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 0;
+    padding: 10px;
+}
+@media (max-width: 1200px) {
+    .block-banner a p {
+        font-size: 24px;
+    }
+}
+@media (max-width: 992px) {
+    .block-banner a p {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .block-banner a p {
+        font-size: 18px;
+    }
+}
+.checkboxes {
+    padding: 0;
+}
+.checkboxes li {
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url('../images/ico-checkbox.png') no-repeat;
+    background-position: 0 .5em;
+}
+
+
+
+.block-blockquote {
+    padding: 30px 15px;
+    min-height: 100px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.block-blockquote p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+.banner-list {}
+.banner-list a {
+    /*display: block;*/
+    /*min-height: 110px;*/
+    color: #f00;
+    font-family: "Bitter"; //'caviar_dreamsbold';
+    font-weight: bold;
+    font-size: 36px;
+    margin: 5px 0;
+}
+.banner-list a p {
+    line-height: 1em;
+    margin: 0;
+}
+.banner-list a:hover, .banner-list a:focus {
+    text-decoration: none;
+}
+.banner-list small {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 17px
+}
+
+.banner-list .fa {
+    /*float: left;*/
+    font-size: 42px;
+    line-height: 60px;
+    margin-right: 5px;
+}
+.banner-list .fa-circle {
+    color: #f59e91;
+}
+.banner-list .fa-stack .fa-stack-1x {
+    font-size: 32px !important;
+}
+.banner-list .fa-stack .fa-stack-2x {
+    font-size: 52px !important;
+}
+.banner-list .media {
+    min-height: 110px;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 20px;
+}
+.banner-list.sidebar .fa {
+    /*line-height: 1.3em;*/
+}
+.banner-list.sidebar .fa-stack {
+    width: 1.3em;
+    height: 1.3em;
+    line-height: 1.3em;
+}
+.banner-list.sidebar small {
+    font-size: 20px;
+}
+.banner-list.sidebar .media {
+    min-height: auto;
+    padding: 10px;
+}
+.banner-list.sidebar a {
+    font-size: 30px;
+}
+@media (max-width: 500px) {
+    .banner-list .media {
+        min-height: 80px;
+        padding: 10px;
+    }
+}
+
+
+
+
+/* carousel-bottom */
+#carousel-bottom {
+    font-size: 12px;
+    font-family: "Bitter"; //'caviar_dreamsbold';
+    font-weight: bold;
+}
+#carousel-bottom .carousel-control {
+    width: 6%;
+    color: #f00;
+    font-size: 66px;
+    background: transparent;
+}
+#carousel-bottom .carousel-inner {
+    width: 80%;
+    margin: 20px auto;
+}
+#carousel-bottom .media {
+    padding: 0 15px;
+}
+
+
+
+.wpcf7-form {
+    background-color: #f3bfac;
+    margin-bottom: 20px;
+    padding: 0 25px;
+}
+.wpcf7-form h3 {
+    display: inline-block;
+    background-color: #fb4540;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 6px 12px;
+}
+.wpcf7-form hr {
+    margin: 0 0 10px 0;
+    border-top: 1px solid #ddd;
+}
+.wpcf7-form p {
+    font-size: 12px;
+    text-align: left;
+}
+.wpcf7-form .btn-carrot {
+    margin: 0 auto;
+    margin-bottom: -17px;
+}
+.wpcf7-form input[type=file] {
+    font-size: 12px;
+}
+.wpcf7-form .help-block {
+    margin-top: -10px;
+}
+
+/* form-drive */
+.form-drive {
+    background-color: #f3bfac;
+    margin-bottom: 20px;
+    padding: 0 25px;
+}
+.form-drive h3 {
+    display: inline-block;
+    background-color: #fb4540;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 6px 12px;
+}
+.form-drive hr {
+    margin: 0 0 10px 0;
+    border-top: 1px solid #ddd;
+}
+.form-drive p {
+    font-size: 12px;
+    text-align: left;
+}
+.form-drive .btn-carrot {
+    margin: 0 auto;
+}
+.form-drive input[type=file] {
+    font-size: 12px;
+}
+#book-now.modal form {
+    margin-bottom: 0;
+}
+
+
+/* sidebar */
+.sidebar {
+
+}
+
+
+
+/* footer */
+footer {
+    padding-bottom: 10px;
+}
+footer .fa-stack {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+}
+footer h3 {
+    display: inline-block;
+    font-family: "Bitter"; //'caviar_dreamsbold';
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer-logo {
+    background-color: #f7dbca;
+    border-top: 7px solid #fff;
+    border-bottom: 7px solid #fff;
+}
+.footer-logo .container {
+    padding-top: 7px;
+    padding-bottom: 4px;
+}
+.menu-footer {
+    margin: 15px 0;
+    padding: 0;
+}
+.menu-footer li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.menu-footer li:last-child {
+    margin-right: 0;
+}
+.menu-footer li a {
+    font-family: "Bitter"; //'caviar_dreamsbold';
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+}
+footer .social-link {
+    transition: all .3s;
+}
+footer .social-link:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+
+/* fix menu visibility */
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-nav .open .dropdown-menu > li > a,
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-image: none;
+    }
+}
+
+.bg-shadow {
+    border: 1px solid #e6e6e6;
+    /*border-radius: 7px;*/
+    -webkit-box-shadow: 11px 10px 34px -6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 11px 10px 34px -6px rgba(0,0,0,0.23);
+    box-shadow: 11px 10px 34px -6px rgba(0,0,0,0.23);
+}
+/*.bg-shadow:hover {
+	background-color: #fafafa;
+}*/
+
+
+#menu-bottom-menu {
+    margin: 15px 0;
+    padding: 0;
+}
+#menu-bottom-menu li {
+    display: inline-block;
+    margin-right: 25px;
+}
+#menu-bottom-menu li:last-child {
+    margin-right: 0;
+}
+#menu-bottom-menu li a {
+    font-family: "Bitter"; //'caviar_dreamsbold';
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+}
+
+#book_now_pop{
+    width: 500px;
+}
+
+#contact_form_pop{
+    width: 500px;
+}
